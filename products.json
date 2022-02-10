@@ -1,0 +1,37 @@
+[
+  {
+    "id":1,
+    "title":"Drone Repair Shop Necklace",
+    "price": 60,
+    "category":"Drone Repair Shop",
+    "image":"./img/SMYKKE_B_3_720x.jpg"
+  },
+  {
+    "id":2,
+    "title":"Drone Repair Shop Hoodie",
+    "price": 95,
+    "category":"Drone Repair Shop",
+    "image":"./img/Product_B_1_720x.jpg"
+  },
+  {
+    "id":3,
+    "title":"Drone Repair Shop Cargo Pants",
+    "price": 75,
+    "category":"Drone Repair Shop",
+    "image":"./img/Product_C_1_720x.jpg"
+  },
+  {
+    "id":4,
+    "title":"Drone Repair Shop T-shirt",
+    "price": 48,
+    "category":"Drone Repair Shop",
+    "image":"./img/Product_A_1_720x.jpg"
+  },
+  {
+    "id":5,
+    "title":"Drone Repair Shop Mask",
+    "price": 20,
+    "category":"Drone Repair Shop",
+    "image":"./img/Product_D_1_720x.jpg"
+  }
+]
