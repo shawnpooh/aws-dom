@@ -103,6 +103,7 @@ btnAdd[4].addEventListener('click', (e) => {
   itemQuantity++;
   getData(4);
   alert('Added to the shopping bag!');
+  console.log(itemQuantity);
 });
 
 // * delete an item
@@ -121,7 +122,11 @@ shoppingList.addEventListener('click', (e) => {
 
 // * clear all items
 btnClear.addEventListener('click', (e) => {
-  if (confirm('Are you sure you wanna clear all items in the shopping bag?')) {
+  e.stopPropagation();
+  if (
+    itemQuantity !== 0 &&
+    confirm('Are you sure you wanna clear all items in the shopping bag?')
+  ) {
     const addedItems = document.querySelectorAll(
       '#shopping-bag-list li:not(#subtotal):not(#list-header)'
     );
